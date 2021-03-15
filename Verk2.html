@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Sara</title>
+		<title>Tölvustýrður skurður</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,19 +41,53 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="Verk1.html">Verkefni 1</a></li>
+                            <li><a href="Verk2.html">Verkefni 2</a></li>
 							<li><a href="Ragnheidur.html">Ragnheiður</a></li>
 							<li><a href="Sara.html">Sara</a></li>
-                            <li><a href="Verk2.html">Verkefni 2</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Sara</h1>
-							<!--<span class="image main"><img src="images/Sara_mynd.jpg" alt="" /></span>-->
-							<p>Ég er 22 ára nemandi í vélaverkfræði í Háskóla Íslands. Ég er á þriðja ári og stefni á að útskrifast í vor. Meira um mig og mín verkefni er hægt að finna á eftirfarandi heimasíðu <a href="https://saraisey.github.io/index.html">saraisey.github.io</a> </p>
+							<h3>Aðferð</h3>
+                            <p>Við niðurhöluðum skrám til að prenta út 3D prófun <a href="https://www.thingiverse.com/thing:2975429">héðan</a>
+                                og prentuðum svo út í PRUSA prentara án stuðnings til að sjá við hvaða halla eða skögun (overhang) þyrfti stuðning undir, og fleira.
+                            </p>
+                            <div class="row">
+                                <div class="column">
+                                    <div class="row">
+                                        <img src="images/print_settings.png" alt="print_settings" style="width:100%">
+                                    </div>
+                                    <div class="row">
+                                        <img src="images/cura.png" alt="cura" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="row">
+                                        <img src="images/tolerance.jpg" alt="tolerance" style="width:100%">
+                                    </div>
+                                    <div class="row">
+                                        <img src="images/profid.jpg" alt="tolerance" style="width:100%">
+                                    </div>
+                                    <div class="row">
+                                        <img src="images/bridging_test.jpg" alt="tolerance" style="width:100%">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Hönnunarreglur og þvinganir</h3>
+                            <p>Á prófinu sést greinilega að þó hægt sé að prenta í miklum halla, fer plastið að verða mjög ljótt í kring um 40°. Því settum við hönnunarreglu þannig að support overhang angle sé 40°. Að auki sýndi prófið á tolerance testinu að 0.25mm þyrftu að vera á milli lína svo að bilið væri greinilegt. Einnig sýndi það að einungis var hægt að prenta út 0.5mm og 0.45mm línur. Þær sem voru þynnri prentuðust ekki. Bridging testið virtist koma vel út alls staðar, ekki sást mikið að því. Hvassa hornið sem er við horn prófsins kom vel út en minni píramídinn prentaðist verr, hliðar hans voru ósléttar og toppurinn ekki jafn hvass. Annað sem prófað var virtist ekki vera vandamál fyrir prentarann að prenta.</p>
+
+                            <div class="row">
+                                <div class="column">
+                                    <img src="images/prent1.jpg" alt="prent1" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/prent2.jpg" alt="prent2" style="width: 100%">
+                                </div>
+                            </div>
 						</div>
+                        
 					</div>
 
 				<!-- Footer -->
